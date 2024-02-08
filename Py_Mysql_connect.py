@@ -4,8 +4,8 @@ from mysql.connector import Error
 try:
     connection = mysql.connector.connect(host='localhost',
                                          database='laplateforme',
-                                         user='root',
-                                         password='0000')
+                                         user='USER_NAME',
+                                         password='*****')
     if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)

@@ -1,0 +1,3 @@
+SELECT * FROM etudiant
+WHERE nom BETWEEN 18 AND 25
+ORDER BY nom ASC;
