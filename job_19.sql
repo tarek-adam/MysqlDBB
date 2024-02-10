@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS studente_count FROM  etudiante;

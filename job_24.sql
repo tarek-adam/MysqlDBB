@@ -1,0 +1,1 @@
+SELECT ROUND(AVG(age)) AS average_age FROM etudiant;
